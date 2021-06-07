@@ -17,6 +17,5 @@ class TestCase(unittest.TestCase):
         self.assertEqual(example.divide(6, 3), 2)
 
 
-
 if __name__ == '__main__':
     unittest.main()
