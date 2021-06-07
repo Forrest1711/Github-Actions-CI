@@ -19,8 +19,14 @@ class TestCase(unittest.TestCase):
     def test_add_2(self):
         self.assertEqual(example.add(-31, 62), 31)
 
-    def test_subtract(self):
+    def test_subtract_2(self):
         self.assertEqual(example.subtract(-13, -19), 6)
+
+    def test_multiply_2(self):
+        self.assertEqual(example.multiply(-3, -7), 21)
+
+    def test_divide_2(self):
+        self.assertEqual(example.divide(16, -4), -4)
 
 
 if __name__ == '__main__':
